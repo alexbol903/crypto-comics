@@ -39,8 +39,10 @@ function App() {
   return (
     <div className="App">
       <div className="Frame">
-        <div className="cube"></div>
-        <div className="circle"></div>
+        <div className="Scene1">
+          <div className="cube"></div>
+          <div className="circle"></div>
+        </div>
       </div>
     </div>
   );
