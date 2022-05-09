@@ -1,38 +1,77 @@
 .App {
-  text-align: center;
+  min-width: 100%;
+  min-height: 15000px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Frame {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: url(./assets/images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Scene {
+  position: absolute;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Human-1 {
+  bottom: 40px;
+  left: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.Human-2 {
+  bottom: 80px;
+  left: 120px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Nlo-1 {
+  top: 0;
+  right: 220px;
+}
+
+.Dialog-2 {
+  bottom: 195px;
+  left: 226px;
+}
+
+.Nlo-2 {
+  top: 35px;
+  right: 226px;
+}
+
+.Human-3 {
+  bottom: 150px;
+  left: 300px;
+}
+
+.Dialog-3 {
+  bottom: 227px;
+  left: 308px;
+}
+
+.Nlo-3 {
+  top: 90px;
+  right: 310px;
+}
+
+.Nlo-4 {
+  top: 0;
+  right: 0;
+}
+
+.Human-4 {
+  bottom: 125px;
+  left: 274px;
+}
+
+.Dialog-4 {
+  bottom: 212px;
+  left: 230px;
 }
